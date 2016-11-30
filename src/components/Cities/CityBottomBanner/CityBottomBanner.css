@@ -1,0 +1,144 @@
+/*main container */
+.banner .main {
+
+
+}
+.banner .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .9375rem;
+    padding-right: .9375rem;
+    height: 179px;
+    width: 100%;
+    margin-top: 201px;
+    padding-top: 1rem;
+
+}
+
+.banner .border-t {
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+.banner .border-moonstone {
+    border-color: #D8DCE6;
+}
+
+.banner .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -.9375rem;
+    margin-right: -.9375rem;
+}
+
+.banner .col-md-10 .col-md-offset-1 .col-lg-8 .col-lg-offset-2{
+    position: relative;
+    min-height: 1px;
+    padding-left: .9375rem;
+    padding-right: .9375rem;
+}
+.banner .mb {
+  margin-bottom: 2px;
+  margin-top: 1rem;
+}
+
+.banner .justify-center {
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.banner .align-group-center {
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.banner .text-xs-center {
+    text-align: center!important;
+}
+.banner .h2ForContent {
+    margin-right: 25px;
+    z-index: 15;
+}
+
+/******
+button*/
+
+.banner .btn-primary {
+    padding: .8125rem 1.25rem;
+}
+.banner .shrink-0 {
+    flex-shrink: 0;
+}
+.banner .btn-primary {
+    background: -webkit-linear-gradient(top left,#FF00BF,#B80B8C);
+    background: linear-gradient(to bottom right,#FF00BF,#B80B8C);
+    border: none;
+}
+.banner .btn-lg {
+    padding: .75rem 2rem;
+    font-size: 1.125rem;
+    line-height: 1.33333;
+    border-radius: .5rem;
+}
+.banner .btn-primary {
+    color: #fff;
+}
+.banner .btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    border: .08333rem solid transparent;
+    padding: 1.2rem 4rem;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  border-radius: 0.5rem;;
+    z-index: 14;
+
+}
+
+/*
+******************************************************************************************************************************************************
+first media query
+*******************************************************************************************************************************************************/
+@media (min-width: 544px) {
+  .banner .container {
+      max-width: 34rem;
+  }
+  .banner .justify-center {
+      display: flex;
+  }
+}
+/*
+******************************************************************************************************************************************************
+2nd media query
+*******************************************************************************************************************************************************/
+@media (min-width: 768px) {
+.banner .container {
+    max-width: 60rem;
+  }
+
+  .banner .main {
+    margin-bottom: 4rem;
+}
+.banner .justify-center {
+    display: flex;
+}
+
+
+}
+/*
+******************************************************************************************************************************************************
+3nd media query
+*******************************************************************************************************************************************************/
+@media (min-width: 992px) {
+.banner  .container {
+      max-width: 105rem;
+  }
+.banner  .justify-center {
+      display: flex;
+  }
+}

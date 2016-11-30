@@ -1,0 +1,93 @@
+
+
+
+
+.cities-list-comp h2 {
+  margin-top: 40px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+.state-name {
+  font-size: 19px;
+  margin-bottom: 20px;
+  margin-top: 46px;
+  font-weight: 300;
+}
+
+.state-name:nth-child(1) {
+  margin-top: 0px;
+}
+
+
+
+.cities-div {
+  padding-top:10px;
+}
+
+
+.city-list {
+  display:flex;
+  justify-content: center;
+  margin:0 50px;
+}
+
+.city-links {
+  column-count:1;
+  text-align: center;
+  margin-bottom:10px;
+  }
+
+
+.city-links li {
+  list-style-type: none;
+}
+
+
+
+
+.city-links a {
+  color:#FF00BF;
+  text-decoration: none;
+  font-size: 1.60rem;
+  font-weight: 100;
+}
+
+
+.city-links a:hover {
+  color:#b30086;
+  text-decoration: underline;
+}
+
+
+
+@media(min-width: 544px) {
+  .city-links {
+    column-count:2;
+    text-align: left;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .city-links {
+    column-count: 3;
+    text-align:left;
+    padding-left: 15rem;
+  }
+  .city-links a {
+    font-size: 1.75rem;
+  }
+  .state-name:nth-child(25) {
+    margin-top: 200px;
+  }
+  .state-name {
+    font-size: 20px;
+  }
+  .cities-list-comp h2 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 3.25rem;
+  }
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/*/////////////////////////////////////
+// FONT COLOR BRAND REFERENCE
+//////////////////////////////////////*/
+/*
+HOT PINK: #ff00bf;
+DARK PURPLE: #352384;
+CHARCOAL: #333447;
+BONE: #F3F3F5;
+BASE BLACK: #333;
+BASE GREY: #d8dce6;
+*/
+
+
+
+body {
+  font-family: 'Monserrat', sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+a {
+    color: #f3f3f5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff00bf;
+    text-decoration: none;
+}
+
+a:focus {
+    color: #ff00bf;
+    outline: none;
+    text-decoration: none;
+}
+
+.btn {
+    background: #ff00bf;
+    border: 1px solid #ff00bf;
+    border-radius: 7px;
+}
+
+.ul {
+    list-style-type: none;
+}

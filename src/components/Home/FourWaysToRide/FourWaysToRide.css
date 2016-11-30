@@ -1,0 +1,280 @@
+.contentforfourways .container-fluid {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  box-sizing: inherit;
+}
+.contentforfourways .row {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.9375rem;
+    margin-right: -0.9375rem;
+  }
+.contentforfourways  .m-b-xl {
+    margin-bottom: 2rem;
+
+  }
+  .contentforfourways .col-xs-12 {
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+  }
+
+  .contentforfourways .container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
+
+.content_for_fourWaysToRide {
+    padding: 50px 0;
+}
+
+  .contentforfourways .embedded_video{
+    box-sizing: inherit;
+  }
+
+.contentforfourways .full_width{
+  width: 100%;
+}
+
+.contentforfourways .pos_r{
+    position: relative;
+}
+.contentforfourways .radius-circle {
+    border-radius: 50%;
+}
+.contentforfourways .pos-ar {
+    position: absolute;
+}
+.contentforfourways .bg-pink {
+    background-color: #FF00BF;
+}
+.contentforfourways .play {
+    height: 7.4rem;
+    width: 7.4rem;
+    top: 45%;
+    left: 45%;
+    top: calc(50% - 3rem);
+    left: calc(50% - 3rem);
+}
+.contentforfourways .arrow {
+      width: 0px;
+    height: 0;
+    border-top: 1.7rem solid transparent;
+    border-bottom: 1.7rem solid transparent;
+    border-left: 3rem solid white;
+    top: calc(50% - 0.9rem);
+    left: calc(50% - 0.3rem);
+}
+/**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+  beg css for Four Ways to ride - start with the Title: four ways to ride
+*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.contentforfourways .text-xs-center {
+  text-align: center !important;
+  font-size: 2.75rem;
+}
+
+
+.contentforfourways .content_for_fourWaysToRide {
+  display: block;
+  box-sizing: inherit;
+}
+
+.contentforfourways h2  {
+  font-size: 1.75rem;
+    margin-bottom: 1rem;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.1;
+    color: inherit;
+}
+.contentforfourways .align-group-center {
+    -webkit-box-align: center;
+    align-items: center;
+}
+.contentforfourways .flex {
+    display: -webkit-box;
+    display: flex;
+}
+.contentforfourways .flex-column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+.contentforfourways .m-y-l {
+    margin-top: 1.5rem;
+}
+.contentforfourways .text-xs-center {
+    text-align: center !important;
+}
+.contentforfourways .img {
+    background-image: url(https://cdn.lyft.net/brochure/images/lyft-line.7a1567b4.svg);
+    height: 8rem;
+    width: 11rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+    flex-shrink: 0;
+    box-sizing: inherit;
+}
+
+.contentforfourways .img2 {
+    background-image: url(https://cdn.lyft.net/brochure/images/lyft-classic.46d6e930.svg);
+    height: 8rem;
+    width: 11rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+    flex-shrink: 0;
+    box-sizing: inherit;
+}
+
+.contentforfourways .img3 {
+    background-image: url(https://cdn.lyft.net/brochure/images/lyft-plus.742070a1.svg);
+    height: 8rem;
+    width: 11rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+    flex-shrink: 0;
+    box-sizing: inherit;
+}
+
+.contentforfourways .img4 {
+    background-image: url(https://cdn.lyft.net/brochure/images/lyft-premier.c0230045.svg);
+    height: 8rem;
+    width: 11rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+    flex-shrink: 0;
+    box-sizing: inherit;
+}
+
+.contentforfourways .text-thin {
+    font-weight: 300;
+}
+
+.contentforfourways .m-b-s {
+    margin-bottom: 0.5rem;
+}
+
+.contentforfourways h3 {
+    font-size: 2.1rem;
+}
+
+.contentforfourways h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 1rem;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.contentforfourways h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+.contentforfourways .m-b-0 {
+    margin-bottom: 0;
+}
+.contentforfourways p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+
+.contentforfourways a {
+    color: #FF00BF;
+    text-decoration: none;
+}
+
+/**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+  first media query
+*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@media (min-width: 544px) {
+
+  .contentforfourways .container{
+    max-width: 34rem;
+  }
+
+ }
+
+ /**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+   2nd media query
+ *************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+@media (min-width: 768px) {
+
+    .contentforfourways  .container{
+        max-width: 64rem;
+      }
+
+      .contentforfourways .flex-column {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+      }
+
+    .contentforfourways .m-b-xl {
+      margin-bottom: 4rem;
+    }
+
+    .contentforfourways .flexer{
+      text-align: left !important;
+      text-align: left !important;
+      margin-left: 32px;
+    }
+
+    .contentforfourways .text-xs-center {
+    text-align: center !important;
+    font-size: 3.06rem;
+    }
+
+}
+
+/**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+  third media query
+*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@media (min-width: 992px) {
+
+  .contentforfourways .container{
+    max-width: 90rem;
+  }
+
+  .contentforfourways h2 {
+    margin-top: 20px
+  }
+
+  .contentforfourways h3 {
+    font-size: 3.1rem;
+    margin-top: 20px
+  }
+
+  .contentforfourways p {
+    font-weight: 100;
+    font-size: 2rem;
+    line-height: 24px;
+  }
+
+  .contentforfourways .text-xs-center {
+  text-align: center !important;
+  font-size: 3.5rem;
+  margin-bottom: -10px;
+  }
+
+}
